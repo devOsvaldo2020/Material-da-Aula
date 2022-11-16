@@ -46,6 +46,9 @@ h1 {
     display: flex;
     margin-top: 20px;
 }
+.areas.incorrect .area {
+    border: 2px solid #FF0000;
+}
 .areas.correct .area {
     border: 2px solid #00FF00;
 }
