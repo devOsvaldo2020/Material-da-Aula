@@ -56,7 +56,7 @@ function dropNeutral(e) {
     updateAreas();
 };
 
-// função lógica
+// ======= função lógica ===========
 function updateAreas() {
     document.querySelectorAll('.area').forEach(area => {
         let name = area.getAttribute('data-name');
